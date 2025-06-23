@@ -1,64 +1,71 @@
-📁 Start Bootstrap React Portfolio
+# Start Bootstrap React Portfolio
 
-A modern portfolio website built with React.js and styled using custom CSS, inspired by the original Start Bootstrap template. Developed by Leo T. Mazive, this site showcases a clean UI layout featuring sections like Portfolio, About, Contact, and more.
+This is a responsive portfolio website built with **React**. It is based on the "Start Bootstrap" theme and has been fully modularized into React components for better structure and reusability.
 
-🛠 Features
+## 📸 Features
 
-🔹 Responsive layout
+- Responsive design (mobile, tablet, desktop)
+- Section-based layout:
+  - Header
+  - Hero section
+  - Portfolio (with reusable image components)
+  - About section
+  - Contact section with validation
+  - Footer
+- Light/Dark mode toggle (optional future update)
+- Form validation in the contact section:
+  - Displays error messages for blank fields
+  - Highlights errors in red
+  - Shows a temporary "Sent!" message for 3 seconds upon successful submission
 
-🔹 Component-based architecture (React)
+## 🛠️ Tech Stack
 
-🔹 Light/Dark Mode toggle (coming soon)
+- React (Create React App)
+- HTML & CSS (custom styling)
+- JavaScript (for form validation logic)
+- Bootstrap-inspired layout
 
-🔹 Fully customizable content and styles
-
-🔹 Social media footer with external links
-
-📂 Project Structure
+## 📁 Project Structure
 
 my-app/
-│
 ├── public/
-│   └── images/        # Static images (banner, icons, etc.)
-│
+│ └── images/ # All image assets
 ├── src/
-│   ├── components/    # All React components
-│   │   ├── Header.js
-│   │   ├── First.js
-│   │   ├── Second.js
-│   │   ├── Third.js
-│   │   ├── Fourth.js
-│   │   └── Last.js
-│   │
-│   ├── App.js         # Main app layout
-│   └── index.css      # Global styles
-│
+│ ├── components/
+│ │ ├── Header.jsx
+│ │ ├── HeroSection.jsx
+│ │ ├── Portfolio.jsx
+│ │ ├── PortfolioImage.jsx
+│ │ ├── About.jsx
+│ │ ├── Contact.jsx
+│ │ └── Footer.jsx
+│ ├── App.js
+│ ├── App.css
+│ └── index.js
 └── README.md
 
-🚀 Getting Started
 
-To run the project locally:
+## 🚀 Getting Started
 
+### 1. Clone the Repository
 
-# Clone the repository
-git clone https://github.com/yourusername/bootstrap-react-portfolio.git
-cd bootstrap-react-portfolio
+git clone https://github.com/yourusername/start-bootstrap-react.git
+cd start-bootstrap-react
 
-# Install dependencies
+2. Install Dependencies
+
 npm install
 
-# Start the development server
+3. Run the App
+
 npm start
-📦 Built With
-React.js
+Visit: http://localhost:3000
 
-Create React App
+✨ Credits
+Design inspired by Start Bootstrap
 
-Custom CSS (inspired by Bootstrap themes)
+Developed by Leo T. Mazive
 
-✍️ Author
 
-Leo T. Mazive
-📧 leomazive01@gmail.com
-🔗 LinkedIn---www.linkedin.com/in/leo-mazive-b470a535b
+
 
